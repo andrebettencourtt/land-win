@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --green-1000: #D8F3DC;
+    --green-900: #B7E4C7;
+    --green-800: #95D5B2;
+    --green-700: #74C69D;
+    --green-600: #52B788;
+    --green-500: #40916C;
+    --green-400: #2D6A4F;
+    --green-300: #081C15;
+    --grey-100: #847577;
+    --grey-200: #A6A2A2;
+    --grey-300: #CFD2CD;
+    --grey-400: #E5E6E4;
+    --white: #ffffff;
+    --font-one: "Sedan", serif;
+}
