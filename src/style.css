@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 
-:root{
+:root {
     --green-1000: #D8F3DC;
     --green-900: #B7E4C7;
     --green-800: #95D5B2;
@@ -25,69 +25,69 @@
     --font-one: "Sedan", serif;
 }
 
-.section-1{
+.section-1 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border: 2px solid black;
     width: 100%;
 }
 
-.nav-class{
+.nav-class {
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid var(--green-300);
 }
 
-.div-nav{
+.div-nav {
     display: flex;
     padding: 40px;
-    gap:50px;
-    color: var(--green-600);
-    font-size: ;
-}
-
-
-.presentation{
-    display: flex;
-    width: 600px;
-}
-
-.presentation > img{
-    width: 627px;
-    height: 500px;
-}
-
-.text-presentation{
-    display: flex;
-    flex-direction: column;
     gap: 50px;
-    border: 2px solid black;
-    width: 900px;
+    color: var(--green-600);
+}
+
+
+.presentation {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    gap: 10px;
+    margin-left: 30px;
+
+}
+
+.presentation>img {
+    width: 600px;
+    height: 500px;
     
 }
 
-.text-presentation :first-child{
-    font-size: 35px;
+.text-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 900px;
+
+}
+
+.text-presentation :first-child {
+    font-size: 40px;
     color: var(--green-300);
 }
- 
-.text-presentation > p{
-    font-size: 20px;
+
+.text-presentation>p {
+    font-size: 30px;
     color: var(--green-600);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.text-presentation>button {
+    width: 200px;
+    height: 44px;
+    color: var(--green-300);
+    background-color: var(--green-1000);
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
 
