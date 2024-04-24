@@ -8,6 +8,13 @@
 }
 
 
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
 :root {
     --green-1000: #D8F3DC;
     --green-900: #B7E4C7;
@@ -59,7 +66,7 @@
 .presentation>img {
     width: 600px;
     height: 500px;
-    
+
 }
 
 .text-presentation {
@@ -91,3 +98,75 @@
     font-size: 20px;
 }
 
+
+.line {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin: 30px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 40px;
+    color: var(--green-300);
+}
+
+.section-2 > card{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 40px 40px 40px 40px;
+    justify-content: center;
+    height: 440px;
+    text-align: center;
+    background-color: var(--green-1000);
+    border-radius: 15px;
+    border: 1px solid var(--green-300);
+    overflow: hidden;
+    width: 270px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card img {
+    background-size: cover;
+    margin: 40px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 140px;
+
+}
+
+.card p {
+    color: var(--green-300);
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.card :last-child {
+    text-align: left;
+    margin: 10px;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
