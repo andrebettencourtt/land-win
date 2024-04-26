@@ -207,6 +207,17 @@ button {
     align-items: center;
 }
 
+.fav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon>a{
+    color: var(--green-400);
+    
+}
+
 .contato{
     font-size: 25px;
     color: var(--green-400);
