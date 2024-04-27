@@ -179,14 +179,21 @@ button {
 
 .text-three{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+    width: 700px;
+    
 }
 
 .text-three>p {
     font-size: 40px;
     color: var(--green-300);
-    width: 700px;
-    height: 243px;
+    margin-bottom: 20px;
+    
+}
+
+.text-three>button{
+    align-self: flex-end;
+    
 }
 
 
